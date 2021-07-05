@@ -8,8 +8,9 @@ All code required to reproduce results presented in the paper are in a Jupyter N
 
 ## Data
 
-All data with descriptions of the variables is put in openfmri
+
 - The behavior data for the experiment are in `beha_data.csv`
+- All fMRI data with descriptions of the variables is put in openfmri
 
 ## Models
 
