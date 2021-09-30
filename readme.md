@@ -2,6 +2,12 @@
 
 ### Yuanchen Wang, Haiyan Wu(2021)
 
+
+
+## Note
+File directories are marked by "\<\>". Before running the codes, change the directories to the path of corresponding locations.
+
+
 ## Analysis Code
 
 All code required to reproduce results presented in the paper are in a Jupyter Notebook under `./code`
