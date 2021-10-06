@@ -16,6 +16,7 @@ All code required to reproduce results presented in the paper are in a Jupyter N
 
 
 - The behavior data for the experiment are in `beha_data.csv`
+- Psychometric data for the experiment are in `psych_data.csv`
 - All fMRI data with descriptions of the variables is put in openfmri
 
 ## Models
