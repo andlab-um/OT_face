@@ -21,7 +21,6 @@ import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression as LR
 from scipy import stats
 import nilearn.image as img
-from IPython.display import display
 import scipy
 
 sns.set_style("ticks",{'font.family': 'Times'})

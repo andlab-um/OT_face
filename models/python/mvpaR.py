@@ -18,8 +18,7 @@ CONDITION = "04"
 """
 01,02,03,04, OT, Pl
 """
- 
-import math
+
 import numpy as np
 import nibabel as nib
 from scipy import stats
@@ -43,7 +42,7 @@ n = 500
 accuracy = np.empty((n,53,63,46), float)
 
 for i in range(n):
-    filepath = file_prefix + CONDITION + "/perm" + str(i+1) + "/res_accuracy_minus_chance.img"
+    filepath = file_prefix + CONDITION + "/perm" + str(i+1) + "/res_accuracy_minus_chance.hdr"
     temp = nib.load(filepath).get_fdata()
     accuracy[i] = np.array(temp)
 
@@ -58,13 +57,14 @@ for i in range(53):
             t_score[i,j,k] = test.statistic
             p_value[i,j,k] = test.pvalue
 
+
 flatten_p = np.ndarray.flatten(p_value)
 significant = np.reshape(smstats.multitest.fdrcorrection(flatten_p, alpha=0.001)[0],(53,63,46))
 t_sig = np.empty((53,63,46), float)
 for i in range(53):
     for j in range(63):
         for k in range(46):
-            if significant[i,j,k]:# and t_score[i,j,k]>0:
+            if significant[i,j,k]: # and t_score[i,j,k]>0:
                 t_sig[i,j,k] = t_score[i,j,k]
 
 output_path = output_prefix + CONDITION + "Sig.nii"
