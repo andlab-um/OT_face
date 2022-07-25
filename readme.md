@@ -28,29 +28,22 @@ MVPA modelling and analysis (including figure 2-3) is under `./models`
 **This repository contains:**
 ```
 root
- ├── data               # Preprocessed regression data & psychometric data & morphometry data & rs-FC data
+ ├── data               # 
  │    ├── dra 
- │    ├── imq 
- │    ├── mms
  │    └── rsfc
- ├── bs_log             # Bootstrapping reuslts
- │    ├── IMQ-MMS
- │    ├── IMQ-rsFC
- │    └── rsFC-MMS
- ├── util.py            # To provide various basic function
- ├── bootstrap.py       # To conduct subject-wise bootstrapping 
- ├── eval.py            # To lay the foundation for later analyses
- ├── evaluation.ipynb   # To test Hypothesis 1 and Hypothesis 2
- ├── dra_data_pre.ipynb # To pave the way for dyadic regression analysis (dra)
- ├── dra.ipynb          # To test Hypothesis 3 and plot figure 7
- ├── pipeline.ipynb     # To analyse the effects of different pipelines and plot figure 8
- ├── figure_2.ipynb     # To plot figure 2
- ├── figure_3.ipynb     # To plot figure 3
- ├── figure_9.ipynb     # To plot figure 9
- ├── LICENSE
+ ├── code               # 
+ │    ├── R
+ │    └── Python
+ ├──  models            # 
+ │    ├── MATLAB
+ │    ├── Python
+ │    └── README.md
+ ├──  MVPA_plots        # 
+ │    ├── Wholebrain
+ │    └── Neurosynth
  └── README.md
 ```
-**Note**: File directories are marked by "\<\>". Before running the codes, change the directories to the path of corresponding locations. <br />
+**Note**: Before running the codes, change the directories to the path of corresponding locations. <br />
 
 ___
 
