@@ -10,6 +10,9 @@
 ___
 
 ## Highlights
+- Univariate analysis revealed that oxytocin increases the activity of neural networks involved in facial information processing and self-referential: cuneus，IFG，FFG
+- MVPA further revealed a higher decoding accuracy of oxytocin group in MFG & IFG
+- Higher representational similarity was found in the oxytocin group in the facial processing neural networks based on RSA
 
 
 ## Data
