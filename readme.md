@@ -15,9 +15,6 @@ ___
 - Higher representational similarity was found in the oxytocin group in the facial processing neural networks based on RSA
 
 ___
-## Models
-
-MVPA modelling and analysis (including figure 2-3) is under `./models`
 
 ## Structure
 
